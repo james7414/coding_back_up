@@ -1,0 +1,47 @@
+LEAGUE_TABLE_COLUMNS = [
+    'Rk',
+    'Squad',
+    'MP',
+    'W',
+    'D',
+    'L',
+    'GF',
+    'GA',
+    'GD',
+    'Pts',
+    'Home_MP', 
+    'Home_W', 
+    'Home_D', 
+    'Home_L', 
+    'Home_GF', 
+    'Home_GA', 
+    'Home_GD', 
+    'Home_Pts', 
+    'Home_Pts/MP',
+    'Away_MP', 
+    'Away_W', 
+    'Away_D', 
+    'Away_L',
+    'Away_GF', 
+    'Away_GA', 
+    'Away_GD', 
+    'Away_Pts', 
+    'Away_Pts/MP'
+]
+
+# FBref columns of interest
+FIXTURE_TABLE_COLUMNS = [
+    "week",
+    "dow",
+    "kickoff",
+    "home_team",
+    'home_score',
+    'away_score',
+    "xG_home",
+    "xG_away",
+    "away_team",
+    "attendance",
+    "referee",
+    "notes",    
+
+]
